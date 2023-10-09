@@ -1,0 +1,87 @@
+.menu{
+
+    height: 7vh;
+
+    /* background-color: rgb(233, 233, 233); */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+
+    border-radius: 1em;
+}
+
+.menu_item{
+
+    color: black;
+    font-size: 1.1em;
+}
+
+.menu_item:hover{
+
+    /* background-color: white; */
+    background-color: rgb(233, 233, 233);
+}
+
+.about_me_section{
+
+    height: 25vh;
+}
+
+.profile_image{
+
+    border-radius: 50%;
+    height: 20vh;
+}
+
+.projects_section{
+
+    height: 50vh;
+
+    /* border: 1px solid black; */
+}
+
+.projects{
+
+    overflow-x: auto;
+}
+
+.projects::-webkit-scrollbar{
+
+    width: 0;
+}
+
+.prueba{
+
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.project_container{
+
+    background-color: rgb(34, 34, 34);
+
+    border-radius: 0.2em;
+}
+
+.project_container:hover{
+
+    box-shadow: rgba(0, 0, 0, 0.281) 0px 10px 50px;
+}
+
+.project{
+
+    height: 10vh;
+}
+
+.contact_section{
+
+    height: 8vh;
+}
+
+.contact_option{
+
+    height: 5vh;
+}
+
+.cv{
+
+    color: black;
+}
