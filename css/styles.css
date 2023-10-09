@@ -2,7 +2,6 @@
 
     height: 7vh;
 
-    /* background-color: rgb(233, 233, 233); */
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 
     border-radius: 1em;
@@ -16,7 +15,6 @@
 
 .menu_item:hover{
 
-    /* background-color: white; */
     background-color: rgb(233, 233, 233);
 }
 
@@ -34,23 +32,22 @@
 .projects_section{
 
     height: 50vh;
-
-    /* border: 1px solid black; */
 }
 
-.projects{
+.projects_container{
 
     overflow-x: auto;
 }
 
-.projects::-webkit-scrollbar{
+.projects_container::-webkit-scrollbar{
 
     width: 0;
 }
 
-.prueba{
+.projects{
 
-    width: 100%;
+    width: 110%;
+
     flex-wrap: nowrap;
 }
 
