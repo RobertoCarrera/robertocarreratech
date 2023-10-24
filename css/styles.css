@@ -67,7 +67,6 @@ h2{
 .project{
 
     height: 20vh;
-    padding: 0 2em;
 }
 
 .contact_option, .cv{
@@ -105,16 +104,21 @@ h2{
 
         height: 6vh;
     }
-}
 
-.projects_container::-webkit-scrollbar{
+    .project{
 
-    width: 0;
-}
+        padding: 0 2em;
+    }
 
-.projects{
+    .projects_container::-webkit-scrollbar{
+    
+        width: 0;
+    }
+    
+    .projects{
+    
+        width: 110%;
 
-    width: 110%;
-
-    flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
 }
