@@ -3,154 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Roberto Carrera Tech</title>
     <link rel="shortcut icon" href="./img/tech_logo.svg" type="image/x-icon">
 </head>
 <body>
-    <div class="container vh-100">
-        <div class="row h-100 d-flex justify-content-around align-items-center">
-            <div class="col-10 menu">
-                <div class="row h-100 d-flex justify-content-around align-items-center">
-                    <div class="col-1 d-flex justify-content-center align-items-center">
-                        <a href="./index.html" class="h-100 w-100 d-flex justify-content-center align-items-center">
-                            <img src="./img/tech_logo.svg" alt="" class="img-fluid">
+    <div class="container vh-100 d-lg-flex flex-lg-column justify-content-lg-around full_body">
+        <div class="row bg-light">
+            <div class="col-12 shadow">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="./index.html">
+                        <img src="./img/tech_logo.svg" alt="" class="img-fluid logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse d-lg-flex justify-content-end align-items-center" id="navbarNav">
+                            <ul class="w-100 d-lg-flex justify-content-lg-around align-items-lg-center navbar-nav">
+                                <li class="p-2 d-flex justify-content-end align-items-center nav-item">
+                                    <a class="nav-link" href="#">Home</a>
+                                </li>
+                                <li class="p-2 d-flex justify-content-end align-items-center nav-item">
+                                    <a class="nav-link" href="#">About</a>
+                                </li>
+                                <li class="p-2 d-flex justify-content-end align-items-center nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-lg-4 d-flex justify-content-center align-items-center">
+                <img src="./img/foto_perfil.jpeg" alt="" class="p-3 profile_image">
+            </div>
+            <div class="col-md-12 col-lg-8 d-flex flex-column justify-content-center align-items-md-center align-items-lg-start">
+                <h1 class="m-0">Roberto Carrera</h1>
+                <h2 class="m-0 text-center text-success fs-md-5">Web Developer | DevOps Developer</h2>
+            </div>
+        </div>
+        <div class="row d-flex flex-column justify-content-around align-items-center">
+            <div class="col-md-12">
+                <div class="col-12 d-flex justify-content-center align-items-center">
+                    <h3 class="m-5 p-2 fs-4 text-center">Different <span class="text-danger">projects</span> I've been working on</h3>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4 bg-secondary projects_container">
+                <div class="row projects">
+                    <div class="col-md-12 col-lg-12 d-flex justify-content-center align-items-center project_container">
+                        <a href="https://michinanny.es/" target="_blank" rel="noopener noreferrer" class="d-flex justify-content-center align-items-center">
+                            <img src="./img/logo_michinanny.svg" alt="" class="p-3 project">
                         </a>
                     </div>
-                    <div class="col-11 h-100 p-0 d-flex justify-content-center align-items">
-                        <div class="row w-100 p-0 d-flex justify-content-center align-items-center">
-                            <div class="col-2 h-100 w-25 m-0 p-0 d-flex justify-content-center align-items">
-                                <a href="" class="h-100 w-100 d-flex justify-content-center align-items-center text-decoration-none menu_item">About Me</a>
-                            </div>
-                            <div class="col-2 h-100 w-25 m-0 p-0 d-flex justify-content-center align-items">
-                                <a href="" class="w-100 d-flex justify-content-center align-items-center text-decoration-none menu_item">Projects</a>
-                            </div>
-                            <div class="col-2 h-100 w-25 m-0 p-0 d-flex justify-content-center align-items">
-                                <a href="" class="w-100 d-flex justify-content-center align-items-center text-decoration-none menu_item">Contact</a>
-                            </div>
-                        </div>
+                    <div class="col-md-12 col-lg-12 d-flex justify-content-center align-items-center project_container">
+                        <a href="http://anscarr.es/" target="_blank" rel="noopener noreferrer" class="d-flex justify-content-center align-items-center">
+                            <img src="./img/logo_anscarr.png" alt="" class="p-3 w-75 project">
+                        </a>
+                    </div>
+                    <div class="col-md-12 col-lg-12 h-75 d-flex justify-content-center align-items-center project_container">
+                        <a href="https://main.dvpioe88mwwf7.amplifyapp.com/login" target="_blank" rel="noopener noreferrer" class="d-flex justify-content-center align-items-center">
+                            <img src="./img/jetxperience.png" alt="" class="p-3 project">
+                        </a>
+                    </div>
+                    <div class="col-md-12 col-lg-12 d-flex justify-content-center align-items-center project_container">
+                        <a href="https://www.vanesasantamaria.com/" target="_blank" rel="noopener noreferrer" class="d-flex justify-content-center align-items-center">
+                            <img src="./img/logo_rosa.png" alt="" class="p-3 project">
+                        </a>
+                    </div>
+                    <div class="col-md-12 col-lg-12 d-flex justify-content-center align-items-center project_container">
+                        <a href="https://casajaleo.com/" target="_blank" rel="noopener noreferrer" class="d-flex justify-content-center align-items-center">
+                            <img src="./img/casa_jaleo.png" alt="" class="p-3 project">
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="col-10 about_me_section">
-                <div class="row h-100 d-flex justify-content-between align-items-center">
+        </div>
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-12 w-lg-75">
+                <div class="row w-100 p-4 d-flex justify-content-around align-items-center">
                     <div class="col-3 d-flex justify-content-center align-items-center">
-                        <img src="./img/foto_perfil.jpeg" alt="" class="profile_image">
+                        <a href="https://www.linkedin.com/in/roberto-carrera-santa-maria/" target="_blank" rel="noopener noreferrer">
+                            <img src="./img/linkedin.png" alt="My LinkedIn Profile" class="contact_option">
+                        </a>
                     </div>
-                    <div class="col-9 d-flex flex-column justify-content-center align-items-end">
-                        <h1>Roberto Carrera</h1>
-                        <h2>Web Developer | DevOps Developer</h2>
+                    <div class="col-3 d-flex justify-content-center align-items-center">
+                        <a href="https://github.com/RobertoCarrera" target="_blank" rel="noopener noreferrer">
+                            <img src="./img/github.png" alt="My GitHub Profile" class="contact_option">
+                        </a>
                     </div>
-                </div>
-            </div>
-            <div class="col-10 projects_section">
-                <div class="row h-100">
-                    <div class="col-12 d-flex justify-content-center align-items-center">
-                        <h3 class="m-0">Differents <a href="">projects</a> I've been working on</h3>
-                    </div>
-                    <div class="col-12 h-75 projects_container">
-                        <div class="row h-100 d-flex justify-content-start align-items-center projects">
-                            <div class="col-3 h-75 m-2 p-0 d-flex justify-content-center align-items-center project_container">
-                                <a href="https://michinanny.es/" target="_blank" rel="noopener noreferrer" class="h-200 w-100 d-flex justify-content-center align-items-center">
-                                    <img src="./img/logo_michinanny.svg" alt="" class="project">
-                                </a>
-                            </div>
-                            <div class="col-3 h-75 m-2 p-0 d-flex justify-content-center align-items-center project_container">
-                                <a href="http://anscarr.es/" target="_blank" rel="noopener noreferrer" class="h-100 w-100 d-flex justify-content-center align-items-center">
-                                    <img src="./img/logo_anscarr.png" alt="" class="project">
-                                </a>
-                            </div>
-                            <div class="col-3 h-75 m-2 p-0 d-flex justify-content-center align-items-center project_container">
-                                <a href="https://main.dvpioe88mwwf7.amplifyapp.com/login" target="_blank" rel="noopener noreferrer" class="h-100 w-100 d-flex justify-content-center align-items-center">
-                                    <img src="./img/jetxperience.png" alt="" class="project">
-                                </a>
-                            </div>
-                            <div class="col-3 h-75 m-2 p-0 d-flex justify-content-center align-items-center project_container">
-                                <a href="https://www.vanesasantamaria.com/" target="_blank" rel="noopener noreferrer" class="h-100 w-100 d-flex justify-content-center align-items-center">
-                                    <img src="./img/logo_rosa.png" alt="" class="project">
-                                </a>
-                            </div>
-                            <div class="col-3 h-75 m-2 p-0 d-flex justify-content-center align-items-center project_container">
-                                <a href="https://casajaleo.com/" target="_blank" rel="noopener noreferrer" class="h-100 w-100 d-flex justify-content-center align-items-center">
-                                    <img src="./img/casa_jaleo.png" alt="" class="project">
-                                </a>
-                            </div>
-                            <div class="col-3 h-75 m-2 p-0 d-flex justify-content-center align-items-center project_container">
-                                <a href="https://michinanny.es/" target="_blank" rel="noopener noreferrer" class="h-200 w-100 d-flex justify-content-center align-items-center">
-                                    <img src="./img/logo_michinanny.svg" alt="" class="project">
-                                </a>
-                            </div>
-                            <div class="col-3 h-75 m-2 p-0 d-flex justify-content-center align-items-center project_container">
-                                <a href="http://anscarr.es/" target="_blank" rel="noopener noreferrer" class="h-100 w-100 d-flex justify-content-center align-items-center">
-                                    <img src="./img/logo_anscarr.png" alt="" class="project">
-                                </a>
-                            </div>
-                            <div class="col-3 h-75 m-2 p-0 d-flex justify-content-center align-items-center project_container">
-                                <a href="https://main.dvpioe88mwwf7.amplifyapp.com/login" target="_blank" rel="noopener noreferrer" class="h-100 w-100 d-flex justify-content-center align-items-center">
-                                    <img src="./img/jetxperience.png" alt="" class="project">
-                                </a>
-                            </div>
-                            <div class="col-3 h-75 m-2 p-0 d-flex justify-content-center align-items-center project_container">
-                                <a href="https://www.vanesasantamaria.com/" target="_blank" rel="noopener noreferrer" class="h-100 w-100 d-flex justify-content-center align-items-center">
-                                    <img src="./img/logo_rosa.png" alt="" class="project">
-                                </a>
-                            </div>
-                            <div class="col-3 h-75 m-2 p-0 d-flex justify-content-center align-items-center project_container">
-                                <a href="https://casajaleo.com/" target="_blank" rel="noopener noreferrer" class="h-100 w-100 d-flex justify-content-center align-items-center">
-                                    <img src="./img/casa_jaleo.png" alt="" class="project">
-                                </a>
-                            </div>
-                            <div class="col-3 h-75 m-2 p-0 d-flex justify-content-center align-items-center project_container">
-                                <a href="https://michinanny.es/" target="_blank" rel="noopener noreferrer" class="h-200 w-100 d-flex justify-content-center align-items-center">
-                                    <img src="./img/logo_michinanny.svg" alt="" class="project">
-                                </a>
-                            </div>
-                            <div class="col-3 h-75 m-2 p-0 d-flex justify-content-center align-items-center project_container">
-                                <a href="http://anscarr.es/" target="_blank" rel="noopener noreferrer" class="h-100 w-100 d-flex justify-content-center align-items-center">
-                                    <img src="./img/logo_anscarr.png" alt="" class="project">
-                                </a>
-                            </div>
-                            <div class="col-3 h-75 m-2 p-0 d-flex justify-content-center align-items-center project_container">
-                                <a href="https://main.dvpioe88mwwf7.amplifyapp.com/login" target="_blank" rel="noopener noreferrer" class="h-100 w-100 d-flex justify-content-center align-items-center">
-                                    <img src="./img/jetxperience.png" alt="" class="project">
-                                </a>
-                            </div>
-                            <div class="col-3 h-75 m-2 p-0 d-flex justify-content-center align-items-center project_container">
-                                <a href="https://www.vanesasantamaria.com/" target="_blank" rel="noopener noreferrer" class="h-100 w-100 d-flex justify-content-center align-items-center">
-                                    <img src="./img/logo_rosa.png" alt="" class="project">
-                                </a>
-                            </div>
-                            <div class="col-3 h-75 m-2 p-0 d-flex justify-content-center align-items-center project_container">
-                                <a href="https://casajaleo.com/" target="_blank" rel="noopener noreferrer" class="h-100 w-100 d-flex justify-content-center align-items-center">
-                                    <img src="./img/casa_jaleo.png" alt="" class="project">
-                                </a>
-                            </div>
-                        </div>
+                    <div class="col-3 d-flex justify-content-center align-items-center">
+                        <a href="./img/CV_octubre_2023.pdf" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="10vh" fill="currentColor" class="bi bi-file-person cv" viewBox="0 0 16 16">
+                                <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"></path>
+                                <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
+                            </svg>
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="col-12 w-25 d-flex justify-content-around align-items-center contact_section">
-                <a href="https://www.linkedin.com/in/roberto-carrera-santa-maria/" target="_blank" rel="noopener noreferrer">
-                    <img src="./img/linkedin.png" alt="My LinkedIn Profile" class="contact_option">
-                </a>
-                <a href="https://github.com/RobertoCarrera" target="_blank" rel="noopener noreferrer">
-                    <img src="./img/github.png" alt="My GitHub Profile" class="contact_option">
-                </a>
-                <a href="./img/CV_octubre_2023.pdf" target="_blank" rel="noopener noreferrer">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="5vh" fill="currentColor" class="bi bi-file-person cv" viewBox="0 0 16 16">
-                        <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
-                        <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                    </svg>
-                </a>
-            </div>
+        </div>
+        <div class="row">
             <div class="col-12 d-flex justify-content-center align-items-center">
                 <h6 class="message"><i class="bi bi-cone-striped message_icon"></i> Site still under construction <i class="bi bi-cone-striped message_icon"></i></h6>
             </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="./js/scripts.js"></script>
 </body>
 </html>
